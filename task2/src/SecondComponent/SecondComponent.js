@@ -1,10 +1,10 @@
 
 function SecondComponent(props){
     const SecondArr = props.SecondArr;
-
+  
     return (
         <ul>
-
+  
         {SecondArr.map((e , i)=>(
             <li key={i}>
                 {i}: {e};
@@ -13,6 +13,6 @@ function SecondComponent(props){
         </ul>
         
     );
-}
-
-export default SecondComponent;
+  }
+  
+  export default SecondComponent;
