@@ -12,7 +12,7 @@ function SecondComponent(props) {
     <ul>
       {secondArr.map((e , i) => (
           <li key={i}>
-          <span>{i}: </span>  <span>{e}</span>
+          <span>{i + 1}.</span>  <span>{e}</span>
         </li>
       ))}
     </ul>
