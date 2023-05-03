@@ -1,6 +1,6 @@
-import SecondComponent from '../SecondComponent/SecondComponent';
+import SecondComponent from './SecondComponent/SecondComponent';
 
-function SecondComponent(){
+function FirstComponent(){
     const arr = ['Bmw','Lexus','Honda','Ferrari','Porsche','Subaru','Mercedes'];
     return (
         <div>
@@ -9,4 +9,4 @@ function SecondComponent(){
     );
 }
 
-export default SecondComponent;
+export default FirstComponent;
